@@ -1,0 +1,68 @@
+/*
+ * Design tokens do CEAP.
+ * Cores extraídas do logo (azul + verde). Use SEMPRE estas variáveis nos componentes.
+ */
+:root {
+  /* Cores da marca */
+  --cor-primaria: #336699; /* azul do logo */
+  --cor-primaria-escura: #264d73;
+  --cor-primaria-clara: #e8f0f7;
+  --cor-secundaria: #35cb68; /* verde do logo */
+  --cor-secundaria-escura: #1f8a45;
+  --cor-secundaria-clara: #e6f8ec;
+
+  /* Destaque / CTA (verde com texto escuro para manter contraste) */
+  --cor-destaque: var(--cor-secundaria);
+  --cor-destaque-hover: #2bb85b;
+  --cor-texto-sobre-destaque: #10301c;
+
+  /* Neutros */
+  --cor-fundo: #ffffff;
+  --cor-fundo-alt: #f4f7fa;
+  --cor-texto: #1c1e1e;
+  --cor-texto-secundario: #5a6470;
+  --cor-texto-invertido: #ffffff;
+  --cor-borda: #dde3ea;
+  --cor-erro: #c0392b;
+
+  /* Tipografia */
+  --fonte-titulo: 'Poppins', system-ui, sans-serif;
+  --fonte-corpo: 'Nunito', system-ui, sans-serif;
+
+  --peso-normal: 400;
+  --peso-medio: 600;
+  --peso-forte: 700;
+
+  --texto-xs: 0.8125rem; /* 13px */
+  --texto-sm: 0.9375rem; /* 15px */
+  --texto-base: 1rem; /* 16px */
+  --texto-lg: 1.25rem; /* 20px */
+  --texto-xl: 1.75rem; /* 28px */
+  --texto-2xl: 2.25rem; /* 36px */
+  --texto-3xl: clamp(2.25rem, 5vw, 3.25rem);
+
+  --altura-linha: 1.6;
+  --altura-linha-titulo: 1.2;
+
+  /* Espaçamento (4, 8, 16, 24, 32, 48, 64) */
+  --espaco-1: 4px;
+  --espaco-2: 8px;
+  --espaco-3: 16px;
+  --espaco-4: 24px;
+  --espaco-5: 32px;
+  --espaco-6: 48px;
+  --espaco-7: 64px;
+
+  /* Forma */
+  --raio: 8px;
+  --raio-lg: 16px;
+  --raio-pilula: 999px;
+
+  --sombra: 0 2px 8px rgba(28, 30, 30, 0.08);
+  --sombra-lg: 0 8px 24px rgba(28, 30, 30, 0.12);
+
+  /* Layout */
+  --largura-max: 1120px;
+  --altura-navbar: 72px;
+  --transicao: 0.2s ease;
+}

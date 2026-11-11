@@ -1,0 +1,25 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100svh;
+}
+
+.main {
+  flex: 1;
+}
+
+.pular {
+  position: absolute;
+  left: var(--espaco-3);
+  top: -100px;
+  z-index: 20;
+  padding: var(--espaco-2) var(--espaco-3);
+  background: var(--cor-destaque);
+  color: var(--cor-texto-sobre-destaque);
+  border-radius: var(--raio);
+  font-weight: var(--peso-forte);
+}
+
+.pular:focus {
+  top: var(--espaco-2);
+}
