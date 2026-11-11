@@ -1,0 +1,126 @@
+:root {
+  --footer-bg: #09221D;         /* Verde muito escuro da imagem */
+  --footer-text: #FFFFFF;       /* Texto branco principal */
+  --footer-text-muted: #D1D5DB; /* Texto levemente opaco */
+  --footer-border: rgba(255, 255, 255, 0.15); /* Linha divisória */
+  --logo-green: #0D6E5B;        /* Verde da bola do logo */
+}
+
+.footer-container {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+  padding: 40px 20px 20px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 32px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-brand {
+  max-width: 280px;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.logo-img {
+  max-height: 40px;
+  object-fit: contain;
+}
+
+/* Fallback visual para o logo caso não passe uma imagem externa */
+.logo-placeholder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  background-color: var(--logo-green);
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-text {
+  color: var(--logo-green);
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 0.5px;
+}
+
+.footer-description {
+  color: var(--footer-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.footer-title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.footer-links,
+.footer-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a,
+.footer-info a {
+  color: var(--footer-text-muted);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover,
+.footer-info a:hover {
+  color: var(--footer-text);
+  text-decoration: underline;
+}
+
+.footer-address {
+  color: var(--footer-text-muted);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.footer-bottom {
+  max-width: 1200px;
+  margin: 32px auto 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--footer-border);
+  font-size: 0.85rem;
+  color: var(--footer-text-muted);
+}
+
+.footer-bottom p {
+  margin: 0;
+}
