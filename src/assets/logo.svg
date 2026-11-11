@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="CEAP">
+  <!-- Versão provisória do logo. Substituir pelo arquivo oficial quando disponível. -->
+  <defs>
+    <clipPath id="circulo"><circle cx="50" cy="50" r="50"/></clipPath>
+  </defs>
+  <g clip-path="url(#circulo)">
+    <rect width="100" height="100" fill="#336699"/>
+    <path d="M0 58 Q50 46 100 58 V100 H0 Z" fill="#35cb68"/>
+  </g>
+  <text x="50" y="56" text-anchor="middle" font-family="'Pacifico', 'Brush Script MT', cursive" font-size="30" fill="#ffffff">Ceap</text>
+  <text x="50" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" font-weight="700" fill="#ffffff">CENTRO ESPÍRITA</text>
+  <text x="50" y="80" text-anchor="middle" font-family="Arial, sans-serif" font-size="6.5" font-weight="700" fill="#ffffff">AMOR AO PRÓXIMO</text>
+</svg>

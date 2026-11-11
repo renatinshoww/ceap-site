@@ -1,0 +1,55 @@
+.footer {
+  margin-top: auto;
+  background: var(--cor-primaria);
+  color: var(--cor-texto-invertido);
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--espaco-5);
+  padding-block: var(--espaco-6);
+}
+
+.nome {
+  font-family: var(--fonte-titulo);
+  font-weight: var(--peso-forte);
+  font-size: var(--texto-lg);
+  margin-bottom: var(--espaco-2);
+}
+
+.descricao {
+  max-width: 40ch;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: var(--cor-texto-invertido);
+  text-decoration: none;
+  font-weight: var(--peso-medio);
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.faixa {
+  background: var(--cor-primaria-escura);
+  font-size: var(--texto-sm);
+  padding-block: var(--espaco-3);
+}
+
+.faixa p {
+  margin: 0;
+}
