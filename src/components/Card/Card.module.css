@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  background: var(--cor-fundo);
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio-lg);
+  box-shadow: var(--sombra);
+}
+
+.imagem {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.corpo {
+  padding: var(--espaco-4);
+}
+
+.titulo {
+  margin-bottom: var(--espaco-2);
+}
+
+.texto {
+  margin: 0;
+  color: var(--cor-texto-secundario);
+}
