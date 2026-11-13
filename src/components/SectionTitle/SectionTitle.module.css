@@ -1,0 +1,15 @@
+.cabecalho {
+  margin-bottom: var(--espaco-5);
+}
+
+.titulo {
+  margin-bottom: var(--espaco-2);
+  color: var(--cor-primaria);
+}
+
+.subtitulo {
+  max-width: 60ch;
+  margin: 0;
+  font-size: var(--texto-lg);
+  color: var(--cor-texto-secundario);
+}
