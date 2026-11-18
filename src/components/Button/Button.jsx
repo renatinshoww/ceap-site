@@ -1,4 +1,4 @@
-import './Button.css';
+import './Button.modules.css';
 
 function Button({
   variant = 'primary',
