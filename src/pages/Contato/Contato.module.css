@@ -1,3 +1,37 @@
 .pagina {
   padding-block: var(--espaco-6);
 }
+
+.formularioContainer {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.formularioContainer h1 {
+  margin-bottom: var(--espaco-3);
+}
+
+.formularioContainer h2 {
+  margin-bottom: var(--espaco-2);
+  color: var(--cor-primaria);
+}
+
+.formularioContainer p {
+  margin-bottom: var(--espaco-4);
+  color: var(--cor-texto-secundario);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-3);
+}
+.tituloFormulario {
+  margin: 0;
+
+  font-family: var(--fonte-titulo);
+  font-weight: 600;
+  font-size: 26px;
+
+  color: rgb(18, 51, 45);
+}
