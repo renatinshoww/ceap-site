@@ -1,4 +1,4 @@
-@import './tokens.css';
+@import '../../styles/tokens.css';
 
 .button {
   display: inline-flex;
@@ -52,4 +52,24 @@
   opacity: 0.5;
   cursor: not-allowed;
   pointer-events: none;
+}
+
+/* Variante formulário de contato */
+.button--contact {
+  align-self: flex-start;
+
+  padding: 16px 40px;
+
+  border: 0;
+  border-radius: 999px;
+
+  background: rgb(232, 131, 58);
+  color: rgb(30, 42, 40);
+
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.button--contact:hover {
+  background: rgb(220, 120, 48);
 }
