@@ -1,0 +1,55 @@
+@import './tokens.css';
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+/* Variante primária */
+.button--primary {
+  background-color: var(--cor-primaria);
+  color: white;
+}
+
+.button--primary:hover {
+  background-color: var(--cor-primaria-escura);
+}
+
+/* Variante destaque */
+.button--highlight {
+  background-color: var(--cor-destaque);
+  color: #ffffff;
+}
+
+.button--highlight:hover {
+  background-color: var(--cor-destaque-hover);
+}
+
+/* Variante contorno */
+.button--outline {
+  background-color: transparent;
+  color: var(--cor-primaria);
+  border-color: var(--cor-primaria);
+}
+
+.button--outline:hover {
+  background-color: var(--cor-primaria);
+  color: white;
+}
+
+/* Estado disabled */
+.button:disabled,
+.button[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
