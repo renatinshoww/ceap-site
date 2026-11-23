@@ -3,7 +3,13 @@ import { Link, NavLink } from 'react-router-dom'
 import logo from '../../assets/logo.svg'
 import styles from './Navbar.module.css'
 
-function Navbar({ links }) {
+const LINKS_PADRAO = [
+  { to: '/', label: 'Início' },
+  { to: '/eventos', label: 'Eventos' },
+  { to: '/contato', label: 'Contato' },
+]
+
+function Navbar({ links = LINKS_PADRAO }) {
   const [aberto, setAberto] = useState(false)
   const fechar = () => setAberto(false)
 

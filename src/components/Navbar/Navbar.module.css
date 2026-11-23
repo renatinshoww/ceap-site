@@ -77,6 +77,19 @@
   height: 2px;
   background: var(--cor-primaria);
   border-radius: 2px;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.toggle[aria-expanded='true'] .barra:nth-of-type(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+
+.toggle[aria-expanded='true'] .barra:nth-of-type(2) {
+  opacity: 0;
+}
+
+.toggle[aria-expanded='true'] .barra:nth-of-type(3) {
+  transform: translateY(-7px) rotate(-45deg);
 }
 
 @media (max-width: 720px) {
