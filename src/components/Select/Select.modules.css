@@ -1,0 +1,43 @@
+@import '../../styles/tokens.css';
+
+.select-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--espaco-2);
+}
+
+.select-label {
+  font-family: var(--fonte-corpo);
+  font-size: var(--texto-sm);
+  font-weight: var(--peso-medio);
+  color: var(--cor-texto);
+}
+
+.select-field {
+  width: 100%;
+  padding: 12px 16px;
+
+  border: 1px solid var(--cor-borda);
+  border-radius: var(--raio);
+
+  font-family: var(--fonte-corpo);
+  font-size: var(--texto-base);
+
+  color: var(--cor-texto);
+  background-color: var(--cor-fundo);
+
+  cursor: pointer;
+
+  transition: var(--transicao);
+}
+
+.select-field:focus {
+  outline: none;
+  border-color: #e67e22;
+  box-shadow: 0 0 0 2px rgba(230, 126, 34, 0.2);
+}
+
+.select-error {
+  font-size: var(--texto-xs);
+  color: var(--cor-erro);
+}
