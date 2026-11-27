@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Palestra Espírita",
+    "data": "2026-12-05",
+    "local": "Sede do CEAP",
+    "categoria": "Palestras"
+  },
+  {
+    "id": 2,
+    "titulo": "Estudo do Evangelho",
+    "data": "2026-12-08",
+    "local": "Sede do CEAP",
+    "categoria": "Estudos"
+  },
+  {
+    "id": 3,
+    "titulo": "Campanha de Arrecadação de Alimentos",
+    "data": "2026-12-12",
+    "local": "Sede do CEAP",
+    "categoria": "Ações sociais"
+  },
+  {
+    "id": 4,
+    "titulo": "Encontro Fraterno",
+    "data": "2026-12-13",
+    "local": "Sede do CEAP",
+    "categoria": "Encontros"
+  },
+  {
+    "id": 5,
+    "titulo": "Palestra sobre Amor ao Próximo",
+    "data": "2026-12-15",
+    "local": "Sede do CEAP",
+    "categoria": "Palestras"
+  },
+  {
+    "id": 6,
+    "titulo": "Estudo da Doutrina Espírita",
+    "data": "2026-12-19",
+    "local": "Sede do CEAP",
+    "categoria": "Estudos"
+  }
+]
